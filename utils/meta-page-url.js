@@ -3,7 +3,7 @@ import {HOME,SERVICES,SERVICES_INDIVIDUAL,BLOGS,BLOGS_INDIVIDUAL,PORTFOLIO,PORTF
 
 export const HOME_META = name + HOME;
 export const SERVICES_META = name + SERVICES;
-export const SERVICES_INDIVIDUAL_META = (slug="slug") => neme + SERVICES_INDIVIDUAL(slug);
+export const SERVICES_INDIVIDUAL_META = (slug="slug") => name + SERVICES_INDIVIDUAL(slug);
 export const BLOGS_META = name + BLOGS;
 export const BLOGS_INDIVIDUAL_META = (slug="slug") => name + BLOGS_INDIVIDUAL(slug);
 export const PORTFOLIO_META = name + PORTFOLIO;
