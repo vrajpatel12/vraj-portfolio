@@ -1,0 +1,82 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.footer-wrapper {
+  width: 80%;
+  padding: 2rem 0rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-wrapper section {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.footer-wrapper section .footer-logo {
+  width: 50%;
+  margin-bottom: 1rem;
+  max-width: 240px;
+  height: auto;
+}
+
+.footer-wrapper section .footer-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-wrapper section nav {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 80%; */
+}
+
+.footer-wrapper section h3 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.footer-wrapper section a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer-wrapper section address,
+.footer-wrapper section p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  font-style: normal;
+  color: grey;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 80%;
+}
+
+.footer-wrapper section p {
+  margin-left: 0rem;
+}
+
+.footer-wrapper section#quick-links address {
+  margin-bottom: 1rem;
+  width: 50%;
+  margin-left: 0rem;
+}

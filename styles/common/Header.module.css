@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.header-wrapper {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+}
+
+.header-wrapper .header-logo {
+  width: 10%;
+  max-width: 270px;
+  height: auto;
+}
+
+.header-wrapper .header-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header-wrapper nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-wrapper nav address {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  color: grey;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
