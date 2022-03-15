@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import { FAVICON, WHOLE_LOGO } from '../../../utils/images-url'
+import { WHOLE_LOGO } from '../../../utils/images-url'
 import { HOME_META } from '../../../utils/meta-page-url'
 import { DESC, TITLE, TWITTER, WEBSITE_NAME } from '../../../utils/meta-tags'
 
-const  MyHead = ({title=TITLE,desc=DESC,url=WHOLE_LOGO,type="website",weburl=HOME_META})=> {
+const  MyHead = ({title=TITLE,desc=DESC,url="https://vraj-portfolio.vercel.app"+WHOLE_LOGO,type="website",weburl=HOME_META})=> {
   return (
       <Head>
         <title>{title}</title>
